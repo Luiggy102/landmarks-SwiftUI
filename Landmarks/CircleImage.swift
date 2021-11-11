@@ -2,7 +2,7 @@
 //  CircleImage.swift
 //  Landmarks
 //
-//  Created by Luiggy Esteban Tamayo Erazo on 10/11/21.
+//  Created by Luiggy Tamayo on 10/11/21.
 //
 
 import SwiftUI
