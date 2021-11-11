@@ -5,6 +5,10 @@
 //  Created by Luiggy Tamayo on 10/11/21.
 //
 
+
+// Las vistas y controles son los bloques visuales de la interfaz de la app
+
+
 import SwiftUI
 
 @main //El atributo @main indica el punto de entrada de la app
