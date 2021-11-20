@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {//estructura de la vista y diseño
-    var body: some View {
+    
+    var body: some View { //some: devolver una o mas
         
         VStack {
             
@@ -21,7 +22,7 @@ struct ContentView: View {//estructura de la vista y diseño
                 .padding(.bottom,-130)
             
             VStack(alignment: .leading) {
-                
+               
                 Text("Turtle Rock")// con cmd + click se seleciona
                 
                 /*
@@ -42,7 +43,7 @@ struct ContentView: View {//estructura de la vista y diseño
                 Divider()
                 Text("About Turle Rock")
                     .font(.title2)
-                Text("En efecto, el desarollo ios es riko")
+                Text("Sunset behind a Joshua tree and some rocks")
             }
             //VStack modificadore
             .padding()
