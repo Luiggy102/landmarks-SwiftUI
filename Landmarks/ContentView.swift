@@ -55,5 +55,7 @@ struct ContentView: View {//estructura de la vista y diseño
 struct ContentView_Previews: PreviewProvider {//estructura de la preview
     static var previews: some View {
         ContentView()
+            .previewInterfaceOrientation(.portrait)
+//            .preferredColorScheme(.dark)
     }
 }
