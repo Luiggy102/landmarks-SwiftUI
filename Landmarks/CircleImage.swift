@@ -10,9 +10,7 @@ import SwiftUI
 struct CircleImage: View {
     var body: some View {
         Image("turtlerock")
-        
-        //Circle es un tipo de figura que se puede usar como mascara, o como vista, dandole marco o relleno
-        
+        // Circle es un tipo de figura que se puede usar como mascara, o como vista, dandole marco o relleno
             .clipShape(Circle())// para cortar la imagen en cirulo
             .overlay { // overlay : sobreposicion
                 Circle().stroke(.white, lineWidth: 4)
